@@ -118,4 +118,9 @@ ThermalMonitor SHALL initialize all output flags to FALSE at system startup.
 ## 9. Safety Requirements
 
 ### REQ-TMON-SAFE-001
-ThermalMonitor SHALL default to a safe state when unexpected or
+ThermalMonitor SHALL default to a safe state when unexpected or undefined input conditions occur.
+
+### REQ-TMON-SAFE-002
+ThermalMonitor SHALL not issue any actuator or control commands.
+
+---
