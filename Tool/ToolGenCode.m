@@ -11,7 +11,7 @@ function ToolGenCode()
 
     close_system(Model);
 
-    % copyHBridgeFiles();
+    MoveFileToSource;
 
 end
 
