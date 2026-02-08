@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'ThermalConv'.
  *
- * Model version                  : 1.27
+ * Model version                  : 1.40
  * Simulink Coder version         : 23.2 (R2023b) 01-Aug-2023
- * C/C++ source code generated on : Sun Feb  8 11:42:24 2026
+ * C/C++ source code generated on : Sun Feb  8 13:35:43 2026
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -66,6 +66,22 @@ extern void ThermalConv(void);
  * '<Root>' : 'ThermalConv'
  * '<S1>'   : 'ThermalConv/ThermalConv'
  * '<S2>'   : 'ThermalConv/ThermalConv/ThermalConv_Alg'
+ * '<S3>'   : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp'
+ * '<S4>'   : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp1'
+ * '<S5>'   : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp2'
+ * '<S6>'   : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp3'
+ * '<S7>'   : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp/Divide'
+ * '<S8>'   : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp/Product'
+ * '<S9>'   : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp/Sub'
+ * '<S10>'  : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp1/Divide'
+ * '<S11>'  : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp1/Product'
+ * '<S12>'  : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp1/Sub'
+ * '<S13>'  : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp2/Divide'
+ * '<S14>'  : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp2/Product'
+ * '<S15>'  : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp2/Sub'
+ * '<S16>'  : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp3/Divide'
+ * '<S17>'  : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp3/Product'
+ * '<S18>'  : 'ThermalConv/ThermalConv/ThermalConv_Alg/AdcConvertToTemp3/Sub'
  */
 #endif                                 /* RTW_HEADER_ThermalConv_h_ */
 

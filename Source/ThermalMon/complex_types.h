@@ -5,7 +5,7 @@
  *
  * Model version                  : 1.58
  * Simulink Coder version         : 23.2 (R2023b) 01-Aug-2023
- * C/C++ source code generated on : Sun Feb  8 12:36:34 2026
+ * C/C++ source code generated on : Sun Feb  8 13:36:04 2026
  */
 
 #ifndef COMPLEX_TYPES_H
