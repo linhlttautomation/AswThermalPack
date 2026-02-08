@@ -1,5 +1,7 @@
 function ToolGenCode()
 
+    addpath(genpath('D:\AswThermalPack'));
+    
     Model = 'ASW';
     
     if(~bdIsLoaded(Model))

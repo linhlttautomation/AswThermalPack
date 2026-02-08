@@ -8,8 +8,9 @@ function MoveFileToSource(srcDir)
     % ===============================
     % Configuration per model
     % ===============================
-    models(1).name  = 'ThermalMon';
-    models(2).name  = 'ThermalRct';
+    models(1).name  = 'ThermalConv';
+    models(2).name  = 'ThermalMon';
+    models(3).name  = 'ThermalRct';
 
     for m = 1:numel(models)
         modelName = models(m).name;
@@ -78,5 +79,6 @@ function MoveFileToSource(srcDir)
         fprintf('\n');
     end
 
-    fprintf('[SUCCESS] ThermalMon & ThermalRct sources collected successfully.\n');
+    modelNames = {models.name};
+    fprintf('[SUCCESS] Sources collected successfully for models: %s\n', strjoin(modelNames, ', '));
 end
